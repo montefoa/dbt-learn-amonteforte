@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: orders
+    description: This table containers customer payment amounts
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+    columns:
+      - name: order_id
+        tests:
+          - not_null
